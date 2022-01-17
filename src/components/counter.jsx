@@ -22,7 +22,7 @@ class Counter extends Component {
                 <h6>{this.formatCount()}</h6>
                 <button 
                     onClick={(e)=>onIncrement(counter)}
-                    className= 'btn btn-secondary btn-sm'>Increment
+                    className= 'btn btn-primary btn-sm'>Increment
                 </button>
                 <button onClick={(e)=>onDecrement(counter)} className="btn btn-secondary btn-sm m-2">Decrement</button>
                 <button 
